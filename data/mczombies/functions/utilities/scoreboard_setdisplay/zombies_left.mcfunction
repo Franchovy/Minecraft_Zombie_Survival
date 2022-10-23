@@ -1,0 +1,1 @@
+scoreboard objectives setdisplay sidebar round_zombies_left

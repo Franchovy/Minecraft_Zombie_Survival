@@ -18,3 +18,5 @@ scoreboard players set @a[tag=PLAYER_SPAWN] player_death_watch 0
 tp @a[tag=PLAYER_SPAWN] -614 63 318 facing -614 63 300
 execute as @a[tag=PLAYER_SPAWN] run me has joined the game!
 tag @a[tag=PLAYER_SPAWN] remove PLAYER_SPAWN
+
+function mczombies:wave/start
