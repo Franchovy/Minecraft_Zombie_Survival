@@ -9,10 +9,12 @@ give @a[tag=PLAYER_SPAWN] minecraft:chainmail_chestplate
 give @a[tag=PLAYER_SPAWN] minecraft:chainmail_helmet
 give @a[tag=PLAYER_SPAWN] minecraft:chainmail_leggings
 
+scoreboard objectives setdisplay sidebar
 scoreboard players set @a[tag=PLAYER_SPAWN] zombie_death_counter 0
 scoreboard players set @a[tag=PLAYER_SPAWN] zombie_deaths_count 0
 scoreboard players set @a[tag=PLAYER_SPAWN] player_death_watch 0
 scoreboard players set @a[tag=PLAYER_SPAWN] wave_number 0
+scoreboard players set @a[tag=PLAYER_SPAWN] wave_zombies 15
 
 tp @a[tag=PLAYER_SPAWN] -614 63 318 facing -614 63 300
 tag @a[tag=PLAYER_SPAWN] remove PLAYER_SPAWN
