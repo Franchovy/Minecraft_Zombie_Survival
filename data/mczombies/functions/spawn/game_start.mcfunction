@@ -1,6 +1,6 @@
 time set night
 execute run kill @e[type=minecraft:zombie]
-gamemode survival @a[tag=PLAYER_SPAWN]
+gamemode adventure @a[tag=PLAYER_SPAWN]
 execute run clear @a[tag=PLAYER_SPAWN]
 
 give @a[tag=PLAYER_SPAWN] minecraft:diamond_sword

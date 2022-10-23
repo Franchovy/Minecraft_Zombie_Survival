@@ -1,2 +1,2 @@
 execute at @e[type=armor_stand,nbt={CustomName:'{"text":"chest_marker"}'}] run setblock ~ ~ ~ air replace
-execute at @e[type=armor_stand,nbt={CustomName:'{"text":"chest_marker"}'}] run /summon firework_rocket ~ ~ ~ {Silent:1b,LifeTime:5,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1b,Trail:1b,Colors:[I;0],FadeColors:[I;6319851]}]}}}}
+execute at @e[type=armor_stand,nbt={CustomName:'{"text":"chest_marker"}'}] run summon firework_rocket ~ ~ ~ {Silent:1b,LifeTime:5,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1b,Trail:1b,Colors:[I;0],FadeColors:[I;6319851]}]}}}}

@@ -9,4 +9,7 @@ function mczombies:messages/wave_end
 
 function mczombies:chest/fill
 
+# 30 seconds until "Night" 
+time set 12400
+
 schedule function mczombies:wave/start 30s

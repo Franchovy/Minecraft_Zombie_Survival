@@ -1,3 +1,5 @@
+time set 14000
+
 scoreboard players add @a wave_number 1
 
 scoreboard players set @a zombie_count_max 10
