@@ -5,7 +5,7 @@ scoreboard players reset @a zombie_count_max
 scoreboard players reset @a zombie_count
 scoreboard players reset @a round_zombies_left
 
-say Wave End!
+function mczombies:messages/wave_end
 
 function mczombies:chest/fill
 

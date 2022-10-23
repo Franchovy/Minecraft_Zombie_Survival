@@ -1,8 +1,9 @@
+scoreboard players add @a wave_number 1
 
 scoreboard players set @a zombie_count_max 10
 scoreboard players set @a zombie_count 0
 scoreboard players set @a round_zombies_left 15
 
-function mczombies:chest/empty
+function mczombies:messages/wave_start
 
-say Wave Start!
+function mczombies:chest/empty
