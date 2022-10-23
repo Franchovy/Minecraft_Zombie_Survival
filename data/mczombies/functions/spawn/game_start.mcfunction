@@ -19,4 +19,6 @@ tp @a[tag=PLAYER_SPAWN] -614 63 318 facing -614 63 300
 execute as @a[tag=PLAYER_SPAWN] run me has joined the game!
 tag @a[tag=PLAYER_SPAWN] remove PLAYER_SPAWN
 
-schedule function mczombies:wave/start 6s
+schedule function mczombies:messages/game_start 1s
+
+schedule function mczombies:wave/start 10s
