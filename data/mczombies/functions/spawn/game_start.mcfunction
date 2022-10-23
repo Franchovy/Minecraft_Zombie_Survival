@@ -1,5 +1,3 @@
-say Game start triggered!
-
 time set night
 execute run kill @e[type=minecraft:zombie]
 gamemode survival @a[tag=PLAYER_SPAWN]
@@ -16,7 +14,6 @@ scoreboard players set @a[tag=PLAYER_SPAWN] player_death_watch 0
 scoreboard players set @a[tag=PLAYER_SPAWN] wave_number 0
 
 tp @a[tag=PLAYER_SPAWN] -614 63 318 facing -614 63 300
-execute as @a[tag=PLAYER_SPAWN] run me has joined the game!
 tag @a[tag=PLAYER_SPAWN] remove PLAYER_SPAWN
 
 schedule function mczombies:messages/game_start 1s
