@@ -1,0 +1,1 @@
+scoreboard objectives setdisplay sidebar zombie_death_counter
