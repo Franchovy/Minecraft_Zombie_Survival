@@ -1,2 +1,2 @@
-summon minecraft:zombie ~ ~1 ~ {Health:11f,PersistenceRequired:1b,Attributes:[{Name:generic.follow_range,Base:99}],ArmorItems:[{},{},{},{id:"minecraft:stone_button",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}
+summon minecraft:zombie ~ ~1 ~ {Health:1f,DrownedConversionTime:1999980,InWaterTime:-1,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_button",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Attributes:[{Name:generic.follow_range,Base:999},{Name:generic.movement_speed,Base:0.1},{Name:generic.attack_damage,Base:1},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0},{Name:generic.attack_knockback,Base:1}]}
 scoreboard players add @a zombie_count 1

@@ -10,6 +10,9 @@ function mczombies:messages/wave_end
 
 function mczombies:chest/fill
 
+loot give @a loot mczombies:bonus_loot
+loot give @a loot mczombies:base_loot
+
 # 30 seconds until "Night" 
 time set 12400
 

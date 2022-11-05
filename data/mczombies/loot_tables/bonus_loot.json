@@ -1,0 +1,51 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 60,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 28
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Damage:6,Enchantments:[{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:knockback\",lvl:3s},{id:\"minecraft:sweeping\",lvl:5s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"strog sword\"}'},Unbreakable:1b,Damage:99,Enchantments:[{id:\"minecraft:knockback\",lvl:99s},{id:\"minecraft:fire_aspect\",lvl:1s}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
