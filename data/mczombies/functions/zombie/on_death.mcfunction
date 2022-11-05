@@ -1,4 +1,4 @@
-scoreboard players remove @a[tag=KILLED_ZOMBIE] zombie_count 1
+scoreboard players remove @a zombie_count 1
 tag @a[tag=KILLED_ZOMBIE] remove KILLED_ZOMBIE
 
 execute as @a[scores={round_zombies_left=0..6}] run scoreboard objectives setdisplay sidebar round_zombies_left
