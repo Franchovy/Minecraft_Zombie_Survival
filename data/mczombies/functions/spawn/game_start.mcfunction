@@ -17,7 +17,7 @@ scoreboard players set @a[tag=PLAYER_SPAWN] zombie_count_max 100
 scoreboard players set @a[tag=PLAYER_SPAWN] wave_number 0
 scoreboard players set @a[tag=PLAYER_SPAWN] wave_zombies 15
 
-tp @a[tag=PLAYER_SPAWN] -614 63 318 facing -614 63 300
+tp @a[tag=PLAYER_SPAWN] -561 64 261
 tag @a[tag=PLAYER_SPAWN] remove PLAYER_SPAWN
 
 function mczombies:chest/empty
